@@ -30,7 +30,6 @@ The library [bitcoin](./bitcoin) that we need to
 
 * write Unit Tests (with Jest as testing framework)
 
-
 ## Just tell me what to do
 
 * Fork the project via `github`
