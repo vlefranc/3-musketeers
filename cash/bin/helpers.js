@@ -29,11 +29,11 @@ const help = () => {
   console.log(`
 Usage:
 
- $ ${chalk.cyan('cash')} ${chalk.green('<amount>')} ${chalk.yellow(
+ $ ${chalk.cyan('node bin/index.js')} ${chalk.green('<amount>')} ${chalk.yellow(
   '<currency>'
 )}
 
- $ ${chalk.cyan('cash')} ${chalk.magenta('<command>')}
+ $ ${chalk.cyan('node bin/index.js')} ${chalk.magenta('<command>')}
 
 Commands:
 ${chalk.magenta('--save,  -s')}       Save currencies as default currencies
@@ -44,15 +44,15 @@ ${chalk.magenta('--version,  -v')}     Display version number
 
 Examples:
 
- $ ${chalk.cyan('cash')} ${chalk.green('1')} ${chalk.yellow('usd')}
+ $ ${chalk.cyan('node bin/index.js')} ${chalk.green('1')} ${chalk.yellow('usd')}
 
- $ ${chalk.cyan('cash')} ${chalk.green('1')} ${chalk.yellow('usd eur pln aud')}
+ $ ${chalk.cyan('node bin/index.js')} ${chalk.green('1')} ${chalk.yellow('usd eur pln aud')}
 
- $ ${chalk.cyan('cash')} ${chalk.magenta('--save')} ${chalk.green(
+ $ ${chalk.cyan('node bin/index.js')} ${chalk.magenta('--save')} ${chalk.green(
   'usd'
 )} ${chalk.yellow('eur pln aud')}
 
- $ ${chalk.cyan('cash')} ${chalk.magenta('--help')}
+ $ ${chalk.cyan('node bin/index.js')} ${chalk.magenta('--help')}
   `);
   process.exit(1);
 };

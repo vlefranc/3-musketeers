@@ -16,7 +16,7 @@ const command = {
   'to':
     argv.length > 2
       ? process.argv.slice(4)
-      : config.get('defaultTo', ['USD', 'EUR', 'GBP', 'PLN'])
+      : config.get('defaultTo', ['USD', 'EUR', 'GBP'])
 };
 
 cash(command);
