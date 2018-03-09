@@ -82,6 +82,6 @@ test('should throw when representaion is undefined', () => {
 
 test('should allow untest aliases', () => {
   //convert(4.6, 'Satoshi', 'sat');
-  //convert(4.6, 'μBTC', 'btest');
+  //convert(4.6, 'μBTC', 'bit');
   throw new Error('test not yet defined... write your test here');
 });
